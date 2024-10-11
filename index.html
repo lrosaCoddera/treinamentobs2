@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Banco BS2 - Exemplo</title>
 </head>
-
 <body>
+    <header>
+        <h1>Banco BS2</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao Banco BS2</h2>
+            <p>Seu banco digital, sem tarifas e com praticidade.</p>
+        </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Conta Digital</li>
+                <li>Cartão de Crédito</li>
+                <li>Transferências</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: contato@bancobs2.com.br</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Banco BS2</p>
+    </footer>
+
     <div id="genesys-support-center"></div>
- <script type="text/javascript" charset="utf-8">
-      (function (g, e, n, es, ys) {
-        g['_genesysJs'] = e;
-        g[e] = g[e] || function () {
-          (g[e].q = g[e].q || []).push(arguments)
-        };
-        g[e].t = 1 * new Date();
-        g[e].c = es;
-        ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-      })(window, 'Genesys', 'https://apps.sae1.pure.cloud/genesys-bootstrap/genesys.min.js', {
-        environment: 'prod-sae1',
-        deploymentId: 'fbb3c3d1-7390-4b92-a187-a70562ffc682'
-      });
- </script>
+    <script type="text/javascript" charset="utf-8">
+         (function (g, e, n, es, ys) {
+           g['_genesysJs'] = e;
+           g[e] = g[e] || function () {
+             (g[e].q = g[e].q || []).push(arguments)
+           };
+           g[e].t = 1 * new Date();
+           g[e].c = es;
+           ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+         })(window, 'Genesys', 'https://apps.sae1.pure.cloud/genesys-bootstrap/genesys.min.js', {
+           environment: 'prod-sae1',
+           deploymentId: 'fbb3c3d1-7390-4b92-a187-a70562ffc682'
+         });
+    </script>
 </body>
 </html>
